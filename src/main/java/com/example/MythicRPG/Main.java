@@ -41,6 +41,9 @@ public class Main
         amethystSword = new ModItemSword(amethystMaterial,"amethystSword");
         GameRegistry.registerItem(amethystSword,"amethystSword");
 
+        amethystPickaxe = new ModItemPickaxe(amethystMaterial,"amethystPickaxe");
+        GameRegistry.registerItem(amethystPickaxe,"amethystPickaxe");
+
 
 
 

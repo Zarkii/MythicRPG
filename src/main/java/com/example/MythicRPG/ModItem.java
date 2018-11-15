@@ -9,6 +9,10 @@ import static com.example.MythicRPG.Main.MODID;
 
 public class ModItem extends Item {
     public static Item amethystSword;
+    public static Item amethystAxe;
+    public static Item amethystPickaxe;
+    public static Item amethystHoe;
+    public static Item amethystShovel;
     public static Item amethyst;
     public static Block amethystOre;
     public static ToolMaterial amethystMaterial = EnumHelper.addToolMaterial("amethystMaterial",3,1000,10.0f,4.0f,10);
