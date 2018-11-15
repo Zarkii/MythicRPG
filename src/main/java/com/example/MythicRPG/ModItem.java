@@ -13,6 +13,13 @@ public class ModItem extends Item {
     public static Item amethyst;
 
     public static ToolMaterial amethystMaterial = EnumHelper.addToolMaterial("amethystMaterial",3,1000,10.0f,4.0f,10);
+    public static ToolMaterial amethystAndGarnetMaterial = EnumHelper.addToolMaterial("amethystAndGarnetMaterial",3,1800,13.0f,
+            5.5f,10);
+
+    public static Item garnet;
+
+
+
 
     public ModItem(String itemName){
         this.setUnlocalizedName(itemName);

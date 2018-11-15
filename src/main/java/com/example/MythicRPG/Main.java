@@ -9,11 +9,11 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-import static com.example.MythicRPG.ModBlock.amethystBlock;
-import static com.example.MythicRPG.ModBlock.amethystOre;
+import static com.example.MythicRPG.ModBlock.*;
 import static com.example.MythicRPG.ModItem.*;
 import static com.example.MythicRPG.ModItemAxe.amethystAxe;
 import static com.example.MythicRPG.ModItemPickaxe.amethystPickaxe;
+import static com.example.MythicRPG.ModItemSword.amethystAndGarnetSword;
 import static com.example.MythicRPG.ModItemSword.amethystSword;
 
 @Mod(modid = Main.MODID, version = Main.VERSION)
@@ -34,7 +34,6 @@ public class Main
         GameRegistry.registerBlock(amethystOre,"amethystOre");
         amethystOre.setHardness(6.0f);
         amethystOre.setHarvestLevel("pickaxe",2);
-        GameRegistry.registerWorldGenerator(new ModWorldGenerator(amethystOre,3),0);
 
         amethystSword = new ModItemSword(amethystMaterial,"amethystSword");
         GameRegistry.registerItem(amethystSword,"amethystSword");
@@ -50,6 +49,21 @@ public class Main
         amethystBlock.setHarvestLevel("pickaxe",2);
         GameRegistry.registerBlock(amethystBlock,"amethystBlock");
 
+        garnet = new ModItem("garnet");
+        GameRegistry.registerItem(garnet,"garnet");
+
+        garnetOre = new ModBlock(Material.rock,"garnetOre",garnet);
+        GameRegistry.registerBlock(garnetOre,"garnetOre");
+        garnetOre.setHarvestLevel("pickaxe",2);
+        garnetOre.setHardness(6.0f);
+
+        amethystAndGarnetSword = new ModItemSword(amethystAndGarnetMaterial,"amethystAndGarnetSword");
+        GameRegistry.registerItem(amethystAndGarnetSword,"amethystAndGarnetSword");
+
+        garnetBlock = new ModBlock(Material.iron,"garnetBlock",garnet);
+        GameRegistry.registerBlock(garnetBlock,"garnetBlock");
+        garnetOre.setHarvestLevel("pickaxe",2);
+        garnetOre.setHardness(8.0f);
     }
 
     
@@ -64,7 +78,11 @@ public class Main
         GameRegistry.addRecipe(new ItemStack(ModItemAxe.amethystAxe,1),new Object[]{" AA"," SA"," S ",'A',ModItem.amethyst,'S',Items.stick});
         GameRegistry.addRecipe(new ItemStack(ModItemAxe.amethystAxe,1),new Object[]{"AA ","AS "," S ",'A',ModItem.amethyst,'S',Items.stick});
         GameRegistry.addRecipe(new ItemStack(ModBlock.amethystBlock,1),new Object[]{"AAA","AAA","AAA",'A',ModItem.amethyst});
+        GameRegistry.addRecipe(new ItemStack(ModItemSword.amethystAndGarnetSword,1),new Object[]{" AG"," AG","  S",'A',ModItem.amethyst,'S', Items.stick,'G',ModItem.garnet});
+        GameRegistry.addRecipe(new ItemStack(ModBlock.garnetBlock,1),new Object[]{"GGG","GGG","GGG",'G',ModItem.garnet});
 
+        GameRegistry.registerWorldGenerator(new ModWorldGenerator(amethystOre,3),0);
+        GameRegistry.registerWorldGenerator(new ModWorldGenerator(garnetOre,7),0);
 
 
     }

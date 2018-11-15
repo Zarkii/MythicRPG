@@ -13,6 +13,8 @@ public class ModBlock extends Block {
 
     public static Block amethystOre;
     public static Block amethystBlock;
+    public static Block garnetOre;
+    public static Block garnetBlock;
     private Item toDrop;
     public ModBlock(Material material, String BlockName, Item toDrop){
         super(material);

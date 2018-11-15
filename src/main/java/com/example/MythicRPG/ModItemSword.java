@@ -9,6 +9,7 @@ import static com.example.MythicRPG.Main.MODID;
 public class ModItemSword extends ItemSword {
 
     public static Item amethystSword;
+    public static Item amethystAndGarnetSword;
 
     public ModItemSword(ToolMaterial p_i45356_1_,String itemName) {
         super(p_i45356_1_);

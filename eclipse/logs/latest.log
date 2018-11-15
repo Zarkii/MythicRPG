@@ -1,31 +1,37 @@
-[19:09:54] [main/INFO]: Setting user: Player712
-[19:09:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:10:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MythicRPG
-[19:10:02] [Sound Library Loader/INFO]: Sound engine started
-[19:10:02] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[19:10:02] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[19:10:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MythicRPG
-[19:10:03] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[19:10:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:10:04] [Sound Library Loader/INFO]: Sound engine started
-[19:10:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:10:10] [Server thread/INFO]: Generating keypair
-[19:10:11] [Server thread/INFO]: Preparing start region for level 0
-[19:10:11] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:10:12] [Server thread/INFO]: Player712[local:E:8a2190dc] logged in with entity id 151 at (339.0674820562267, 30.0, -586.0142967823616)
-[19:10:12] [Server thread/INFO]: Player712 joined the game
-[19:10:14] [Server thread/INFO]: Player712 has just earned the achievement [Taking Inventory]
-[19:10:14] [Client thread/INFO]: [CHAT] Player712 has just earned the achievement [Taking Inventory]
-[19:10:40] [Server thread/INFO]: [Player712: Set own game mode to Creative Mode]
-[19:10:40] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:10:45] [Server thread/INFO]: Saving and pausing game...
-[19:10:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:10:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:10:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:10:46] [Server thread/INFO]: Stopping server
-[19:10:46] [Server thread/INFO]: Saving players
-[19:10:46] [Server thread/INFO]: Saving worlds
-[19:10:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:10:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:10:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:10:47] [Client thread/INFO]: Stopping!
+[23:08:44] [main/INFO]: Setting user: Player492
+[23:08:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:08:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MythicRPG
+[23:08:53] [Sound Library Loader/INFO]: Sound engine started
+[23:08:53] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[23:08:53] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[23:08:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MythicRPG
+[23:08:54] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[23:08:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:08:55] [Sound Library Loader/INFO]: Sound engine started
+[23:08:58] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:08:58] [Server thread/INFO]: Generating keypair
+[23:08:58] [Server thread/INFO]: Preparing start region for level 0
+[23:08:59] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:08:59] [Server thread/INFO]: Player492[local:E:9c1c39c2] logged in with entity id 151 at (340.919081868575, 30.0, -584.3000000119209)
+[23:08:59] [Server thread/INFO]: Player492 joined the game
+[23:09:04] [Server thread/INFO]: Player492 has just earned the achievement [Taking Inventory]
+[23:09:04] [Client thread/INFO]: [CHAT] Player492 has just earned the achievement [Taking Inventory]
+[23:10:08] [Server thread/INFO]: [Player492: Set the time to 0]
+[23:10:08] [Client thread/INFO]: [CHAT] Set the time to 0
+[23:13:20] [Server thread/INFO]: [Player492: Set own game mode to Survival Mode]
+[23:13:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:13:43] [Server thread/INFO]: [Player492: Set own game mode to Creative Mode]
+[23:13:43] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:14:12] [Server thread/INFO]: [Player492: Set own game mode to Survival Mode]
+[23:14:12] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:14:58] [Server thread/INFO]: Saving and pausing game...
+[23:14:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:14:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:14:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:14:59] [Server thread/INFO]: Stopping server
+[23:14:59] [Server thread/INFO]: Saving players
+[23:14:59] [Server thread/INFO]: Saving worlds
+[23:14:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:14:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:14:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:15:00] [Client thread/INFO]: Stopping!
