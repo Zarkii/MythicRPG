@@ -10,6 +10,9 @@ import java.util.Random;
 import static com.example.MythicRPG.Main.MODID;
 
 public class ModBlock extends Block {
+
+    public static Block amethystOre;
+    public static Block amethystBlock;
     private Item toDrop;
     public ModBlock(Material material, String BlockName, Item toDrop){
         super(material);

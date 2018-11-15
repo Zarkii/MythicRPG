@@ -2,3 +2,5 @@ tile.amethystOre.name=amethyst Ore
 item.amethyst.name=amethyst
 item.amethystSword.name=amethyst Sword
 item.amethystPickaxe.name=amethyst pickaxe
+item.amethystAxe.name=amethyst axe
+tile.amethystBlock.name=amethyst block
