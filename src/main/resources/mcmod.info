@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mr",
+  "name": "MythicRPG",
+  "description": "just ol' plain rpg mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bekamen"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
