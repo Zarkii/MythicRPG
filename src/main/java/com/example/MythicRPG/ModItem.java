@@ -3,6 +3,7 @@ package com.example.MythicRPG;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
 
 import static com.example.MythicRPG.Main.MODID;
@@ -17,6 +18,8 @@ public class ModItem extends Item {
             5.5f,10);
 
     public static Item garnet;
+
+    //public static ItemArmor.ArmorMaterial saintArmorMaterial = EnumHelper.addArmorMaterial("saintArmorMaterial",14,)
 
 
 

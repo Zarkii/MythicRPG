@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add45471-c184-4f47-8e09-0de000c57cf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mr/textures/blocks/garnetBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mr/textures/blocks/garnetOre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mr/textures/items/amethystAndGarnetSword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mr/textures/items/garnet.png" afterDir="false" />
+    <list default="true" id="add45471-c184-4f47-8e09-0de000c57cf5" name="Default Changelist" comment="dodano granat(kamień) oraz dodatkowe bloki i broń.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/MainRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemArmor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MythicRPG.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MythicRPG.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/logs/2018-11-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/2018-11-15-1.log.gz" afterDir="false" />
@@ -21,8 +19,10 @@
       <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/DIM-1/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/DIM-1/data/villages.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/DIM1/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/DIM1/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/data/Mineshaft.dat" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/data/Mineshaft.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/data/villages.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/level.dat_old" afterDir="false" />
@@ -34,18 +34,10 @@
       <change beforePath="$PROJECT_DIR$/eclipse/saves/New World-/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/saves/New World-/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/assets/mr/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MythicRPG/assets/mr/lang/en_US.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/CraftingClasses/BlockCrafting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/CraftingClasses/ItemCrafting.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModItemSword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MythicRPG/com/example/MythicRPG/ModItemSword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/BlockCrafting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/ItemCrafting.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemSword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,17 +93,19 @@
     <session id="-2044325922">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
           <entry key="info" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="25" />
           <entry key="lang" value="3" />
           <entry key="png" value="2" />
         </counts>
@@ -120,25 +114,25 @@
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="25" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
+          <entry key="dummy" value="12" />
           <entry key="gradle" value="22" />
           <entry key="info" value="56" />
-          <entry key="java" value="4086" />
-          <entry key="lang" value="415" />
-          <entry key="txt" value="35" />
+          <entry key="java" value="5020" />
+          <entry key="lang" value="468" />
+          <entry key="txt" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="22" />
-          <entry key="JAVA" value="4086" />
-          <entry key="PLAIN_TEXT" value="514" />
+          <entry key="JAVA" value="5020" />
+          <entry key="PLAIN_TEXT" value="629" />
         </counts>
       </usages-collector>
     </session>
@@ -148,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModWorldGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="578">
               <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,10 +164,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemPickaxe.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="299">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemArmor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/MainRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemAxe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,22 +222,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="153">
               <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -220,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -261,11 +278,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemPickaxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/ItemCrafting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemSword.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/MainRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemArmor.java" />
       </list>
     </option>
   </component>
@@ -276,8 +296,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -380,44 +400,12 @@
               <item name="mr" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MythicRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MythicRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MythicRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MythicRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MythicRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MythicRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,7 +415,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542319725985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544651660480" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -550,7 +538,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,6 +571,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <MESSAGE value="dodano granat(kamień) oraz dodatkowe bloki i broń." />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano granat(kamień) oraz dodatkowe bloki i broń." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -614,6 +604,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/BlockCrafting.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/ItemCrafting.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemPickaxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -621,73 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemAxe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModArmor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/BlockCrafting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CraftingClasses/ItemCrafting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModWorldGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -701,10 +650,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModWorldGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="578">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/MainRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mr/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -713,8 +696,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="299">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MythicRPG/ModItemArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
